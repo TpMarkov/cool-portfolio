@@ -14,7 +14,7 @@ export const Navbar = () => {
 
         return () => clearInterval(interval); // cleanup
     }, []);
-
+    console.log("something")
     return (
         <nav>
             <div>
