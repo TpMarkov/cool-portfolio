@@ -1,9 +1,11 @@
 import React from 'react'
-import {Navbar} from "./components/navbar.jsx";
+import {Navbar, Welcome} from "./components"
 
 const App = () => {
-    return (
-        <Navbar/>
+    return (<>
+            <Navbar/>
+            <Welcome/>
+        </>
     )
 }
 export default App
